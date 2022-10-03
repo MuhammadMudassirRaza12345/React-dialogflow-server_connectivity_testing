@@ -1,0 +1,30 @@
+{
+  "name": "fulfilment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.mjs ",
+    "dev": "nodemon index.mjs",
+    "type": "module"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^5.2.0",
+    "actions-on-google": "^3.0.0",
+    "axios": "^0.26.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dialogflow-fulfillment": "^0.6.1",
+    "emergys-dialog-fillment": "^1.2.3",
+    "express": "^4.17.3",
+    "google-credentials-helper": "git+https://github.com/malikasinger1/google-credentials-helper.git",
+    "mongoose": "^6.2.10",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19",
+    "twilio": "^3.81.0"
+  }
+}
